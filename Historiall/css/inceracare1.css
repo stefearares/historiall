@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Ops One';
+    src: url('../fonturi/BlackOpsOne-Regular.ttf');
+    /* .. acceseaza parent folderul*/
+}
+
+h1 {
+    font-family: 'Ops One';
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+    position: relative;
+    top: -20px;
+}
+
+h2 {
+    font-family: 'Ops One';
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-style: italic;
+    color: whitesmoke;
+    position: relative;
+    top: -20px;
+}
+
+h3 {
+    font-family: 'Ops One';
+    font-size: 30px;
+    color: whitesmoke;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-size: 18px;
+    color: whitesmoke;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+.informatia {
+    
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.titlu {
+    position: relative;
+    text-align: center;
+    background-image: url('../photos/nr2.png');
+    height: 84px;
+    padding: 6px;
+}
+
+.butonsearch {
+    font-family: 'Ops One';
+    list-style-type: none;
+    text-align: center;
+    height: 100%;
+    flex: 1 0 0;
+}
+
+a.butoane {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 7px;
+}
+
+.navi {
+    margin: 0;
+    padding: 13px;
+    display: flex;
+    height: 100%;
+}
+
+.searchbar {
+    width: 100vw;
+    background-color: black;
+}
+
+.butoane:hover {
+    background-color: rgb(63, 59, 59);
+    font-size: 22px;
+}
+
+body {
+    background-color: #222020;
+    padding: 0;
+    margin: 0;
+}
+
+.text-center {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 6%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.random {
+    display: none;
+}
